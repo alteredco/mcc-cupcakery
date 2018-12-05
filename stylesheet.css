@@ -1,0 +1,141 @@
+body, html {
+  height:100%;
+}
+
+body {
+  margin-left: 20px;
+  padding: 20px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5em;
+  color: #303952;
+  background-image: url("https://i.ibb.co/PxQKN17/grid-01.jpg");
+  background-size: cover;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://i.ibb.co/CBzgd1M/stephanie-mccabe-65986-unsplash.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+.headline {
+  font-family: 'Lobster', cursive;
+  font-size: 2em;
+}
+
+.popup {
+  font-family: 'Raleway', sans-serif;
+  font-size: .75em;
+  color:#c44569
+  margin-left: 20px;
+}
+
+.headline-small {
+  font-family: 'Lobster', cursive;
+}
+
+.cart {
+  margin-left: 90%;
+  font-size: 2em;
+  position: fixed;
+}
+
+.cart:hover {
+  color:#c44569;
+}
+
+.menu {
+  color: #c44569;
+  text-align: center;
+}
+
+.col {
+  display: inline-block;
+}
+
+.img{
+  padding-top: 20px;
+}
+
+.cupcakeImg {
+  width: 50%;
+  border: 10px solid #fff5f5;
+  border-radius: 20%;
+  transition: 0.2s;
+}
+
+li {
+  list-style: none;
+  background-color: #fff5f5;
+  padding: 10px;
+}
+
+.checkout-popup {
+  display: none;
+  position: fixed;
+  background-color: #fff;
+  bottom: 5%;
+  right: 25%;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+	border: 10px solid #fff5f5;
+	text-align: center;
+  padding: 10px;
+}
+
+.submit {
+  margin-bottom: 5%;
+  height: 50px;
+  width: 50%;
+  border: 2px solid #303952;
+  border-radius: 5px;
+  font-size: .75em;
+  color: #303952;
+}
+
+.submit:hover {
+  border: 5px solid #c44569;
+  font-size: .75em;
+  color: #c44569;
+}
+
+.cart-popup {
+  display: none;
+  position: fixed;
+  background-color: #fff;
+  bottom: 5%;
+  left: 50%;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+	border: 10px solid #fff5f5;
+	text-align: center;
+  padding: 20px;
+}
+
+.pay {
+  margin-bottom: 5%;
+  height: 50px;
+  width: 50%;
+  border: 2px solid #303952;
+  border-radius: 5px;
+  font-size: .75em;
+  color: #303952;
+}
+
+.pay:hover {
+  border: 5px solid #c44569;
+  font-size: .75em;
+  color: #c44569;
+}

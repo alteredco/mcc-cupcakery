@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Erica's Cupcakery</title>
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Raleway" rel="stylesheet">
+    <link rel='stylesheet' href='stylesheet.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+  </head>
+  <body>
+     <div class='hero-image'>
+       <div class='hero-text'>
+         <h1 class='headline'>Erica's Cupcakery</h1>
+         <h2 class='headline-small'>The #1 Bakery in PA!</h2>
+         <div class='cart'>
+           <i class="cart fa fa-shopping-cart"></i>
+           
+         </div>
+       </div>
+     </div>
+      <div class='menu'>
+        <div class='col'>
+          <div class='img'>
+            <img src="https://i.ibb.co/2v96yCz/brina-blum-114391-unsplash.jpg" alt="cupcakes" class="cupcakeImg">
+          </div>
+        </div>
+        <div class="col">
+        <h3>Menu</h3>
+        <ul>
+          <li id='pie' data-price='3'>Python Pie: $3 (per slice)</li>
+          <li id='jammy' data-price='1.60'>JS Jammy Dodger: $1.60</li>
+          <li id='roly' data-price='2'>Ruby Roly Poly: $2</li>
+          <li id='doughnut' data-price='1.80'>Drupal Doughnut: $1.80</li>
+          <li id='cookie' data-price='1.60'>C++ Cookie: $1.60</li>
+          <li id='scone' data-price='2'>SQL Scone: $2</li>
+          <li id='galette' data-price='2'>Git Galette: $2</li>
+        </ul>
+       </div>
+      </div>
+      <div class='checkout-popup' id='myCheckout'>
+        <form action="/action_page.php" class='form-container'>
+          <h2>Checkout</h2>
+          <p class='goods'></p>
+          <p>Quantity:</p>
+          <input class='quantity' type='textbox' value='1'>
+          <p class='total'>Total: $<span id='sum'></span></p>
+          <button class='submit' href=''>Submit Order</button>
+        </form>
+      </div>
+    <div class='cart-popup' id='myCart'>
+        <form action="/action_page.php" class='form-container'>
+          <h2>In Cart</h2>
+          <p class='goods'>
+          <ul id='item-list'>
+          </ul>
+          </p>
+          <p class='total'>Total: $<span id='sum'></span></p>
+          <button class='pay' href=''>Pay</button>
+        </form>
+      </div>
+    <script src='index.js'></script>
+  </body>
+</html>
